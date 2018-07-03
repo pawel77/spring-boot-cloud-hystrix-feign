@@ -28,12 +28,12 @@
         <url>https://github.com/pawel77/spring-boot-cloud-hystrix-feign</url>
     </scm>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -421,7 +421,7 @@
                         </executions>
                     </plugin>
 
-                    <plugin>
+                   <!-- <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
                         <extensions>true</extensions>
@@ -431,7 +431,7 @@
                             <serverId>ossrh</serverId>
                             <stagingProgressTimeoutMinutes>15</stagingProgressTimeoutMinutes>
                         </configuration>
-                    </plugin>
+                    </plugin>-->
                 </plugins>
             </build>
         </profile>
